@@ -1,0 +1,18 @@
+{
+  "name": "lab07-student-api",
+  "version": "1.0.0",
+  "description": "CS-301L Lab 07 - Node.js fundamentals and REST APIs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "start:http": "node server-http.js",
+    "start:courses": "node courses-server.js",
+    "task1": "node task1.js",
+    "task2": "node task2.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
